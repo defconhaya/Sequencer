@@ -1,0 +1,9 @@
+﻿  Synth.cpp
+e:\cpp\sequencer\sequencer\olcnoisemaker.h(110): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  e:\cpp\sequencer\sequencer\olcnoisemaker.h(91): note: while compiling class template member function 'bool olcNoiseMaker<short>::Create(std::wstring,unsigned int,unsigned int,unsigned int,unsigned int)'
+  e:\cpp\sequencer\sequencer\olcnoisemaker.h(82): note: see reference to function template instantiation 'bool olcNoiseMaker<short>::Create(std::wstring,unsigned int,unsigned int,unsigned int,unsigned int)' being compiled
+  e:\cpp\sequencer\sequencer\synth.cpp(318): note: see reference to class template instantiation 'olcNoiseMaker<short>' being compiled
+e:\cpp\sequencer\sequencer\olcnoisemaker.h(238): warning C4312: 'type cast': conversion from 'DWORD' to 'olcNoiseMaker<short> *' of greater size
+  e:\cpp\sequencer\sequencer\olcnoisemaker.h(237): note: while compiling class template member function 'void olcNoiseMaker<short>::waveOutProcWrap(HWAVEOUT,UINT,DWORD,DWORD,DWORD)'
+  e:\cpp\sequencer\sequencer\olcnoisemaker.h(121): note: see reference to function template instantiation 'void olcNoiseMaker<short>::waveOutProcWrap(HWAVEOUT,UINT,DWORD,DWORD,DWORD)' being compiled
+  Sequencer.vcxproj -> E:\cpp\Sequencer\Sequencer\x64\Debug\Sequencer.exe
